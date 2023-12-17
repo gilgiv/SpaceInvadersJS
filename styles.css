@@ -1,0 +1,60 @@
+body {
+  caret-color: transparent;
+  background-image: url("assets/images/space.jpg");
+  background-size: cover;
+}
+
+h1{
+    font-style: italic;
+    color: honeydew;
+    font-size: 3em;
+    text-shadow: 2px 2px 8px #FF0000;
+}
+
+.grid {
+  width: 300px;
+  height: 300px;
+  border: solid 1px black;
+  display: flex;
+  flex-wrap: wrap;
+  background-image: linear-gradient(
+    rgba(0, 0, 255, 0.6),
+    rgba(255, 255, 0, 0.2)
+  );
+  margin: auto;
+}
+
+.container {
+  text-align: center;
+}
+
+.grid div {
+  width: 20px;
+  height: 20px;
+}
+
+.invader {
+  /* background-color: purple;
+  border-radius: 10px; */
+  background-image: url("assets/images/ufo.png");
+  background-size: cover;
+}
+
+.shooter {
+  background-image: url("assets/images/launch.png");
+  background-size: cover;
+}
+
+.laser {
+  background-image: url("assets/images/bullet.png");
+  background-size: cover;
+}
+
+.boom {
+  background-image: url("assets/images/explosion.png");
+  background-size: cover;
+}
+
+.results {
+  color: blueviolet;
+}
